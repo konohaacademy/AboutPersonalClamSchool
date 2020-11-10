@@ -1703,6 +1703,8 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .c-link {
     width: 480px;
+    margin-left: 70px;
+    margin-right: 70px;
   }
   .mt-xl {
     margin-top: 70px !important;
@@ -1787,6 +1789,8 @@ Stylesheet: 960px以上のモニタで適用
   }
   .c-link {
     width: 60%;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   .mt-xl {
     margin-top: 80px !important;
