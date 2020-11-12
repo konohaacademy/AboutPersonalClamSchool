@@ -1245,15 +1245,25 @@ HTML SCSS JSResult EDIT ON .container {
 
 .achievement__box__content__textarea__text {
   width: 45%;
-  height: 30px;
+  height: 25px;
   text-align: center;
+  margin: 4px 0px;
 }
 
 .achievement__box__content__textarea__text span.title {
-  line-height: 30px;
-  font-size: 22px;
+  line-height: 21px;
+  font-size: 21px;
   font-weight: 600;
   letter-spacing: -2px;
+  padding: 0 3px;
+}
+
+.achievement__box__content__textarea__text span.title.point {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.achievement__box__content__textarea__text span.title.sp {
+  font-size: 19px;
 }
 
 .achievement__box__content__textarea__grade {
@@ -1294,7 +1304,7 @@ HTML SCSS JSResult EDIT ON .container {
 
 .achievement__box__content__textarea__detail p span.point {
   font-weight: 600;
-  background-color: rgba(255, 255, 0, 0.7);
+  background-color: rgba(255, 255, 0, 0.5);
 }
 
 .card__textbox {
@@ -1741,6 +1751,9 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     font-size: 28px;
     line-height: 35px;
   }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 25px;
+  }
   .achievement__box__content__textarea__grade {
     height: 35px;
   }
@@ -1841,6 +1854,9 @@ Stylesheet: 960px以上のモニタで適用
     font-size: 25px;
     line-height: 40px;
   }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 23px;
+  }
   .achievement__box__content__textarea__grade {
     height: 40px;
   }
@@ -1904,6 +1920,12 @@ Stylesheet: 1280px以上のモニタで適用
   .contact-form .item input[type="email"],
   .contact-form .item textarea {
     width: 90%;
+  }
+  .achievement__box__content__textarea__text {
+    height: 40px;
+  }
+  .achievement__box__content__textarea__text span.title.sp {
+    font-size: 22px;
   }
 }
 

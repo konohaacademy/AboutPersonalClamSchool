@@ -81,6 +81,9 @@ Stylesheet: 960px以上のモニタで適用
           span.title {
             font-size: 25px;
             line-height: 40px;
+            &.sp {
+              font-size: 23px;
+            }
           }
         }
         &__grade {

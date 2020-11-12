@@ -894,13 +894,21 @@ HTML SCSS JSResult EDIT ON .container {
         flex-wrap: wrap;
         &__text {
           width: 45%;
-          height: 30px;
+          height: 25px;
           text-align: center;
+          margin: 4px 0px;
           span.title {
-            line-height: 30px;
-            font-size: 22px;
+            line-height: 21px;
+            font-size: 21px;
             font-weight: 600;
             letter-spacing: -2px;
+            padding: 0 3px;
+            &.point {
+              background-color: rgba($color: yellow, $alpha: 0.5);
+            }
+            &.sp {
+              font-size: 19px;
+            }
           }
         }
         &__grade {
@@ -933,7 +941,7 @@ HTML SCSS JSResult EDIT ON .container {
             line-height: 1.5em;
             span.point {
               font-weight: 600;
-              background-color: rgba($color: yellow, $alpha: 0.7);
+              background-color: rgba($color: yellow, $alpha: 0.5);
             }
           }
         }
