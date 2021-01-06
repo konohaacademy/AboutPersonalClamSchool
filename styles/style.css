@@ -863,6 +863,21 @@ HTML SCSS JSResult EDIT ON .container {
   background-size: cover;
 }
 
+.card__imgframe.img14 {
+  background: url("../images/img14.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img15 {
+  background: url("../images/img15.png") no-repeat center;
+  background-size: cover;
+}
+
+.card__imgframe.img16 {
+  background: url("../images/img16.png") no-repeat center;
+  background-size: cover;
+}
+
 .card__imgframe.img-math {
   background: url("../images/math.png") no-repeat center;
   background-size: cover;
